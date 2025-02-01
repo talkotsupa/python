@@ -1,0 +1,7 @@
+services:
+  flask:
+    image: talkot/flask
+    build: .
+    container_name: flask
+    ports:
+      - "8001:7000"
